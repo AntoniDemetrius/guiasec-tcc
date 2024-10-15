@@ -16,9 +16,4 @@ function showContent(item) {
   if (selectedItem) {
       selectedItem.style.display = 'block'; // Exibe o conteúdo correspondente
   }
-}
-
-// Mostrar conteúdo padrão ao carregar a página
-window.onload = function() {
-  showContent('default');
 };
