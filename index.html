@@ -16,14 +16,21 @@
         <!-- SIDEBAR -->
         <aside id="sidebar" class="sidebar-toggle">
             <div class="sidebar-logo">
-                <a href="index.html">GuiaSec</a>
+                <a href="index.html"><i class="bi bi-shield-shaded"></i> GuiaSec </a>
             </div>
             <ul class="sidebar-nav p-0">
                 <li class="sidebar-header">Lista</li>
+                <li class="sidebar-sobre">
+                    <a href="#" class="sidebar-link">
+                        <a href="#" class="sidebar-link" onclick="showContent('sobre')">SOBRE</a>
+                    </a>
+                </li>
+
+                <!-- EXPANDIR SIDEBAR -->
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#auth" aria-expanded="true" aria-controls="auth">
                         <i class="lni lni-protection"></i>
-                        <span>Expandir</span>
+                        <span>EXPANDIR</span>
                     </a>
                     <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                         <li class="sidebar-item">
@@ -64,6 +71,10 @@
 
                     <!-- CONTEUDO GERAL -->
                     <div id="content" class="text-center">
+                        <div id="sobre" class="content-item" style="display: none;">
+                            <h2>TEXT</h2>
+                            <p>text.</p>
+                        </div>
                         <div id="item1" class="content-item" style="display: none;">
                             <h2>Conteúdo do ITEM 1</h2>
                             <h3>Conteudo</h3>
@@ -93,7 +104,8 @@
                         </div>
                         <div id="info" class="content-item" style="display: none;">
                             <h2>Informações</h2>
-                            <p>info geral.</p>
+                            <p>info geral / contato.</p>
+                            <a href="https://github.com/AntoniDemetrius/guiasec-tcc">GitHub</a>
                         </div>
                         <div id="default" class="content-item">
                             <p>Selecione o item.</p>
