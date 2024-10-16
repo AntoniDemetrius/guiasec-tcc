@@ -29,7 +29,7 @@ a {
     max-width: 264px;
     min-width: 264px;
     transition: all 0.35s ease-in-out;
-    background-color: #242424;
+    background-color: #0e0d0d;
     display: flex;
     flex-direction: column;
 }
@@ -53,8 +53,7 @@ a {
 
 /* Barra de navegação */
 .navbar {
-    padding: 1.15rem 1.5rem;
-    border-bottom: 2px dashed #2aa14e;
+    background-color: transparent;
 }
 
 /* Sidebar */
@@ -90,7 +89,7 @@ a.sidebar-link {
 }
 
 a.sidebar-link:hover {
-    background-color: #3b9e259a;
+    background-color: #329951;
 }
 
 .sidebar-link[data-bs-toggle="collapse"]::after {
@@ -115,7 +114,7 @@ a.sidebar-link:hover {
 #content {
     padding: 2rem;
     background-color: #ffffff;
-    border: 2px dashed #2aa14e;
+    border: 2px solid #000000;
     border-radius: 8px;
     font-size: 1.25rem;
     color: #333;
