@@ -78,14 +78,14 @@ a {
     padding: 1.5rem 1.5rem .375rem;
 }
 
-/* Links da sidebar */
+/* Links do sidebar */
 a.sidebar-link {
     padding: .625rem 1.625rem;
     color: #FFF;
     position: relative;
     transition: all 0.35s;
     display: block;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
 }
 
 a.sidebar-link:hover {

@@ -23,24 +23,48 @@
                 <!-- EXPANDIR SIDEBAR AMEAÇAS THREATS-->
                 <li class="sidebar-threat">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#threat" aria-expanded="true" aria-controls="threat">
-                        <i class="lni lni-protection"></i>
-                        <span>Ameaças</span>
+                        <span>Tipos de Ameaças</span>
                     </a>
                     <ul id="threat" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link" onclick="showContent('threat1')">threat1</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('threat1')">Engenharia social</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link" onclick="showContent('threat2')">threat2</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('threat2')">Phishing</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link" onclick="showContent('threat3')">threat3</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('threat3')">Malware</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link" onclick="showContent('threat4')">threat4</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('threat4')">DoS / DDoS</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link" onclick="showContent('threat5')">threat5</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('threat5')">threat5</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- SEIDEBAR PRATICAS DE SEGURANÇA-->
+                <li class="sidebar-psecurity">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse" data-bs-target="#psecurity" aria-expanded="true" aria-controls="psecurity">
+                        <i class="lni lni-protection"></i>
+                        <span>Práticas de Segurança</span>
+                    </a>
+                    <ul id="psecurity" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('psecurity1')">E-mails e links Suspeitos</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('psecurity2')">Senhas Fortes</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('psecurity3')">Autenticação de Dois Fatores (2FA)</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('psecurity4')">Backups de Dados</a>
+                        </li>
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('psecurity5')">Atualizações de Sistema</a>
                         </li>
                     </ul>
                 </li>
@@ -53,19 +77,19 @@
                     </a>
                     <ul id="tools" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                         <li class="sidebar-tools">
-                            <a href="#" class="sidebar-link" onclick="showContent('tools1')">tools 1</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('tools1')">Antivírus e Firewalls</a>
                         </li>
                         <li class="sidebar-tools">
-                            <a href="#" class="sidebar-link" onclick="showContent('tools2')">tools 2</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('tools2')">VPNs (Redes Privadas Virtuais)</a>
                         </li>
                         <li class="sidebar-tools">
-                            <a href="#" class="sidebar-link" onclick="showContent('tools3')">tools 3</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('tools3')">tools 3</a>
                         </li>
                         <li class="sidebar-tools">
-                            <a href="#" class="sidebar-link" onclick="showContent('tools4')">tools 4</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('tools4')">tools 4</a>
                         </li>
                         <li class="sidebar-tools">
-                            <a href="#" class="sidebar-link" onclick="showContent('tools5')">tools 5</a>
+                            <a href="#" class="sidebar-link bi bi-dot" onclick="showContent('tools5')">tools 5</a>
                         </li>
                     </ul>
                 </li>
@@ -92,25 +116,25 @@
                     <!-- CONTEUDO AMEAÇAS THREATS -->
                     <div id="content" class="text-center">
                         <div id="threat1" class="content-item" style="display: none;">
-                            <h2>Conteúdo do threat1</h2>
+                            <h2>Engenharia Social</h2>
                             <h3>Conteudo</h3>
-                            <img src="assets/images/hck2.png" alt="Imagem threat1"  >
+                            <img src="https://via.placeholder.com/150" alt="Imagem threat1"  >
                             <p>TEXTO</p>
                         </div>
                         <div id="threat2" class="content-item" style="display: none;">
-                            <h2>Conteúdo do threat2</h2>
+                            <h2>Phishing</h2>
                             <h3>Conteudo</h3>
                             <img src="https://via.placeholder.com/150" alt="Imagem threat2" class="img-fluid">
                             <p>CONTEUDO threat 2</p>
                         </div>
                         <div id="threat3" class="content-item" style="display: none;">
-                            <h2>Conteúdo do threat3</h2>
+                            <h2>Malware</h2>
                             <h3>Conteudo</h3>
                             <img src="https://via.placeholder.com/150" alt="Imagem threat3" class="img-fluid">
                             <p>CONTEUDO threat 3</p>
                         </div>
                         <div id="threat4" class="content-item" style="display: none;">
-                            <h2>Conteúdo do threat4</h2>
+                            <h2>threat 4</h2>
                             <h3>Conteudo</h3>
                             <img src="https://via.placeholder.com/150" alt="Imagem threat4" class="img-fluid">
                             <p>CONTEUDO threat 4</p>
@@ -123,13 +147,46 @@
                         </div>
 
 
+                        <!--CONTEUDO PRATICAS SEGURANÇA-->
+                        <div id="psecurity1" class="content-item" style="display: none;">
+                            <h2>Conteúdo do psecurity1</h2>
+                            <h3>Conteudo</h3>
+                            <img src="https://via.placeholder.com/150" alt="Imagem psecurity1"  >
+                            <p>TEXTO</p>
+                        </div>
+                        <div id="psecurity2" class="content-item" style="display: none;">
+                            <h2>Conteúdo do psecurity2</h2>
+                            <h3>Conteudo</h3>
+                            <img src="https://via.placeholder.com/150" alt="Imagem psecurity2" class="img-fluid">
+                            <p>CONTEUDO psecurity 2</p>
+                        </div>
+                        <div id="psecurity3" class="content-item" style="display: none;">
+                            <h2>Conteúdo do psecurity3</h2>
+                            <h3>Conteudo</h3>
+                            <img src="https://via.placeholder.com/150" alt="Imagem psecurity3" class="img-fluid">
+                            <p>CONTEUDO psecurity 3</p>
+                        </div>
+                        <div id="psecurity4" class="content-item" style="display: none;">
+                            <h2>Conteúdo do psecurity4</h2>
+                            <h3>Conteudo</h3>
+                            <img src="https://via.placeholder.com/150" alt="Imagem psecurity4" class="img-fluid">
+                            <p>CONTEUDO psecurity 4</p>
+                        </div>
+                        <div id="psecurity5" class="content-item" style="display: none;">
+                            <h2>Conteúdo do psecurity5</h2>
+                            <h3>Conteudo</h3>
+                            <img src="https://via.placeholder.com/150" alt="Imagem psecurity5" class="img-fluid">
+                            <p>CONTEUDO psecurity 5</p>
+                        </div>
+
+
                         <!-- CONTEUDO FERRAMENTAS TOOLS -->
                         <div id="tools1" class="content-item" style="display: none;">
                             <h2>Conteúdo do tools 1</h2>
                             <h3>Conteudo</h3>
-                            <img src="assets/images/html.png" alt="Imagem do tools 1" class="img-fluid">
+                            <img src="https://via.placeholder.com/150" alt="Imagem do tools 1" class="img-fluid">
                             <p>CONTEUDO 1</p>
-                            <p>Lorem ipsum dolor sit amet. Est iure soluta vel minus earum qui neque nobis aut debitis aperiam et omnis laudantium aut quasi deserunt hic maiores reiciendis. In facilis corporis ea enim quas qui possimus consectetur et atque quod qui commodi ducimus aut deserunt voluptatem eos consequuntur tempora. </p><p>Eos architecto perspiciatis qui natus rerum qui neque voluptatibus ut nihil autem. Qui doloremque ullam est saepe ipsum eos dolores galisum aut quod veritatis non enim omnis. Ut consequatur nulla et dolores explicabo ad accusantium quibusdam ut consequatur itaque ut ullam voluptatum quo ipsa enim. </p><p>Sit distinctio nostrum sit placeat vitae sit nisi rerum in quia ullam est minus rerum qui consequuntur amet. Hic reiciendis voluptate 33 quibusdam ratione et praesentium laboriosam quo doloribus perspiciatis eos blanditiis nihil ut molestiae excepturi! Eum dolore necessitatibus qui nihil praesentium ea aperiam rerum. Qui eligendi modi et voluptates ipsum sed soluta alias est sequi quia et iusto rerum et odio consectetur qui magnam cupiditate? </p>
+                            <p> ea enim quas qui possimus consectetur et atque quod qui commodi ducimus aut deserunt voluptatem eos consequuntur tempora. </p><p>Eos architecto perspiciatis qui natus rerum qui neque voluptatibus ut nihil autem. Qui doloremque ullam est saepe ipsum eos dolores galisum aut quod veritatis non enim omnis. Ut consequatur nulla et dolores explicabo ad accusantium quibusdam ut consequatur itaque ut ullam voluptatum quo ipsa enim. </p><p>Sit distinctio nostrum sit placeat vitae sit nisi rerum in quia ullam est minus rerum qui consequuntur amet. Hic reiciendis voluptate 33 quibusdam ratione et praesentium laboriosam quo doloribus perspiciatis eos blanditiis nihil ut molestiae excepturi! Eum dolore necessitatibus qui nihil praesentium ea aperiam rerum. Qui eligendi modi et voluptates ipsum sed soluta alias est sequi quia et iusto rerum et odio consectetur qui magnam cupiditate? </p>
                         </div>
                         <div id="tools2" class="content-item" style="display: none;">
                             <h2>Conteúdo do ITEM 2</h2>
@@ -151,14 +208,20 @@
                             <p>CONTEUDO 5</p>
                             <img src="https://via.placeholder.com/150" alt="Imagem do tools 5" class="img-fluid">
                         </div>
+
+
+                        <!-- CONTEUDO INFO -->
                         <div id="info" class="content-item" style="display: none;">
                             <h2>Informações</h2>
                             <p>info geral / contato.</p>
                             <a href="https://github.com/AntoniDemetrius/guiasec-tcc">GitHub</a>
                         </div>
+
+
+                        <!-- CONTEUDO INTRODUÇAO-->
                         <div id="default" class="content-item">
-                            <h2>Introdução</h2>
-                            <p>Texto Intro</p>
+                            <h2>Introdução a Segurança</h2>
+                            <p>Definição e importância</p>
                         </div>
                     </div>
                 </div>
